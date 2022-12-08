@@ -8,28 +8,67 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 </head>
 <body>
   <div class="row">
     <div class="d-none d-sm-none d-lg-block">
       <div class="container-fluid">
+        <div class="col">
           <div class="row">
-              <div class="col">
-                  <img 
-                  src="../img/logo.png" 
-                  class="img-fluid d-block mx-auto" 
-                  alt="Darafe"
-                  style=" max-height:110px;"
-                  >
-              </div>
+            <a class="btn rounded" style="max-width:80%;" type="submit" href="mailto:contacto@darafe.com"> 
+                <img width="22" height="27" src="../img/iconos/envelope.svg" >
+                <span> contacto@darafe.com</span>
+            </a>
           </div>
+          <div class="row">
+              <a class="btn rounded" style="max-width:80%;margin-left: -25px;" type="submit" href="tel:+7222158046">
+                  <img width="22" height="27" src="../img/iconos/telephone-fill.svg" >
+                  <span> (722) 215 8046 </span>
+              </a>
+          </div>
+          <div class="row">
+              <a class="btn rounded" style="max-width:80%;margin-left: -25px;" type="submit" href="https://g.page/centro-joyero-toluca?share">
+                  <img width="22" height="27" src="../img/iconos/geo-alt-fill.svg" >
+                  <span>Toluca EdoMex</span>
+              </a>
+          </div>
+        </div>
+        <div class="col">
+            <img 
+              src="../img/completlogo.png" 
+              class="img-fluid d-block mx-auto" 
+              alt="Darafe"
+              style=" max-height:110px;"
+            >
+        </div>
+        <div class="col">
+          <div class="row">
+            <button class="btn rounded mx-auto mt-2" 
+            style="background-color:#3b80da;width:35%;"
+            type="submit">
+            <img width="22" height="27" src="../img/iconos/facebook.svg" ><span>Facebook</span></button>
+          </div>
+          <div class="row">
+              <button class="btn rounded mx-auto mt-2" 
+              style="width:35%;background: linear-gradient(45deg, #728bff,#5851db, #925cb6, #c13584, #e1306c, #fd1d1d);"
+              type="submit">
+                  <img width="22" height="27" src="../img/iconos/instagram.svg" ><span>Instagram</span></button>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark d-flex text-center">
-      <a class="navbar-brand ml-4" href="#">Logotipo</a>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-secondary d-flex text-center">
+      <a class="navbar-brand ml-4" href="#"> <img 
+        src="../img/completlogo.png" 
+        class="img-fluid d-block mx-auto" 
+        alt="Darafe"
+        style=" max-height:110px;"
+        width="90" height="90" 
+      ></a>
       <button class="navbar-toggler border border-light mr-3"type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span style="font-size:17px">Menu</span> <span class="navbar-toggler-icon "></span>
       </button>
@@ -50,54 +89,61 @@
         </ul>
       </div>
     </nav>
-    <div class="row">
-      <div class="col">
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img class="d-block w-100 img-fluid" src="../img/bparrilla-02.png" alt="First slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="../img/bparrilla-14.png" alt="Second slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="../img/bparrilla-16.png" alt="Third slide">
-            </div>
+  <div class="row">
+    <div class="col">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100 img-fluid" src="../img/bparrilla-02.png" alt="First slide">
           </div>
-          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="../img/bparrilla-14.png" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="../img/bparrilla-16.png" alt="Third slide">
+          </div>
         </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
     </div>
- 
-    
-
-      <footer class="">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark d-flex">
-            
-            <div id="navbarNav">
-              <ul class=" justify-content-center navbar-nav flex-column">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Pricing</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="#">Disabled</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-      </footer>
+  </div>
+  <div class="row">
+    <div class="col">
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="1000">
+            <img src="../img/bparrilla-14.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="1000">
+            <img src="../img/bparrilla-15.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="1000">
+            <img src="../img/bparrilla-16.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
 </body>
+<script>
+  $( document ).ready(function() {
+    var myCarousel = document.querySelector('#carouselExampleInterval');
+    var carousel = new bootstrap.Carousel(myCarousel);
+  });
+</script>
 </html>
