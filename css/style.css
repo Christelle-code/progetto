@@ -2,8 +2,19 @@
 *{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+body{
+    background: linear-gradient(90deg, rgba(13,16,17,1) 16%, rgba(108,117,125,1) 53%, rgba(13,16,17,1) 86%);
+}
 .carousel img{
     width: 100%;
-    
-    
+}
+.bannertop{
+    margin-top: 84px;
+}
+
+
+h1{
+    font-family: 'Anton', sans-serif;
+    color: black;
+    margin-top: 15px;
 }
